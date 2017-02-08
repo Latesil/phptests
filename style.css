@@ -47,3 +47,87 @@ nav ul form button {
 	font-size: 16px;
 	cursor: pointer;
 }
+
+textarea {
+	width: 850px;
+	height: 80px;
+	background-color: #fff;
+	resize: none;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	background-color: #282828;
+	border: none;
+	color: #fff;
+	font-family: arial;
+	font-weight: 400;
+	cursor: pointer;
+	margin-bottom: 60px;
+}
+
+iframe {
+	width: 853px;
+	height: 480px;
+	border: 1px #999 solid;
+}
+
+body {
+	background-color: #ddd;
+}
+
+.comment-box {
+	position: relative;
+	padding: 20px;
+	width: 815px;
+	margin-bottom: 4px;
+	background-color: #fff;
+	border-radius: 4px:
+}
+
+.comment-box p {
+	font-family: arial;
+	font-size: 14px;
+	line_height: 16px;
+	color: #282828;
+	font-weight: 100;
+}
+
+.edit-form {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	
+}
+
+.edit-form button {
+	width: 40px;
+	height: 20px;
+	color: #282828;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.edit-form button:hover {
+	opacity: 1;
+}
+
+.delete-form {
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	
+}
+
+.delete-form button {
+	width: 40px;
+	height: 20px;
+	color: #282828;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.delete-form button:hover {
+	opacity: 1;
+}
